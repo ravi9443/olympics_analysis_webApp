@@ -1,3 +1,7 @@
+import subprocess
+
+subprocess.run(["pip","install",'-r','requirement.txt'], capture_output=True, text=True)
+
 import streamlit as st
 import pandas as pd
 import preprocessor, helper
